@@ -39,7 +39,7 @@ function local_mancookies_after_require_login() {
                         $data->fieldid=$fieldid;
                         $data->dataformat=0;
                         $data->data = $authcookiesval;
-                        $DB->insert_record('user_info_data', $user, $bulk=false);
+                        $DB->insert_record('user_info_data', $data, $bulk=false);
                     }
                 }
             }
