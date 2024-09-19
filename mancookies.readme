@@ -2,8 +2,8 @@
 
 site admin>users>User profile fields
 
-shortname=authcookies
-shortname=validationkey
+ shortname=authcookies
+ shortname=validationkey
 >> as text
 >> restrict to the spelling --used as it is --hard coded in code --week point 
 
